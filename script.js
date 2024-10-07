@@ -4,8 +4,6 @@ let isMoving = false;
 // Carica data odierna e contatore locale
 const todayDateElement = document.getElementById("today-date");
 const walkCountElement = document.getElementById("walk-count");
-const calendarElement = document.getElementById("calendar");
-const selectedDayCountElement = document.getElementById("selected-day-count");
 const oldLady = document.getElementById("oldLady");
 
 const today = new Date().toISOString().split('T')[0]; // Data odierna
