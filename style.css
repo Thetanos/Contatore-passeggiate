@@ -34,6 +34,8 @@ button {
     position: absolute;
     bottom: 0;
     left: 0;
+    width: 30%; /* Occupa il 30% dell'area di animazione */
+    height: auto; /* Mantiene le proporzioni */
     transition: transform 1s ease-in-out;
 }
 
