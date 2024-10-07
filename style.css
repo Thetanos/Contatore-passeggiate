@@ -34,9 +34,8 @@ button {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: auto; /* Assicura che l'immagine si ridimensioni proporzionalmente */
+    width: 30%; /* Assicura che l'immagine si ridimensioni proporzionalmente */
     height: auto; /* Altezza massima dell'immagine */
-    max-width: auto; /* Larghezza massima per evitare che l'immagine sia troppo larga */
     transition: transform 1s ease-in-out;
 }
 
